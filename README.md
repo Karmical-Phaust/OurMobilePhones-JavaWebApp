@@ -1,3 +1,5 @@
+# OurMobilePhones-JavaWebApp
+
 Sử dụng SQL script ở dưới dành cho MySQL
 
 Nếu sử dụng SQL Server, dùng script sau:
