@@ -1,0 +1,25 @@
+@charset "UTF-8";
+table {
+	width: 100%;
+	border-collapse: collapse;
+	border: none;
+}
+
+tr, th, td {
+	text-align: center;
+	border: 3px solid black;
+	font-size: 1.05vw;
+}
+
+p {
+	font-size: 1.1vw;
+}
+
+.btn {
+	border: none;
+}
+
+b {
+	font-size: 1.4vw;
+}
+

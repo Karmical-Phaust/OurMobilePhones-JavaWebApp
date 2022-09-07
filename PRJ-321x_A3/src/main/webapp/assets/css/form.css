@@ -1,0 +1,87 @@
+@charset "UTF-8";
+form:not([action*=register_page]){
+	margin-left: 24%;
+}
+
+label[for=remember] {
+	display: inline !important;
+	font-size: 1vw;
+	cursor: pointer;
+	white-space: nowrap;
+}
+
+label {
+    display: block;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.5vw;
+    color: darkblue;
+    margin-right: 5%;
+    width: 20%;
+    cursor: pointer;
+    text-align: justify;
+}
+
+input {
+    font-size: 1.28vw;
+    width: 52vw;
+    height: 2.3vw;
+    border: black 1px solid;
+    border-radius: 5px;
+}
+
+input[type=checkbox] {
+	display: inline !important;
+	width: 1.2vw;
+	cursor: pointer;
+	vertical-align: middle;
+}
+
+#submit, button {
+    width: 52vw;
+    text-align: center;
+    height: fit-content;
+    border: black 2px solid;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: rgb(138, 50, 50);
+    color: rgb(156, 211, 165);
+    font-size: 1.28vw;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 8px;
+    margin-top: 6px;
+}
+
+button {
+	border: blue 2px solid;
+	background-color: rgb(175, 52, 197);
+    color: rgb(186, 152, 129);
+}
+
+#submit:hover {
+	background-color: rgb(215, 145, 145);
+    color: rgb(52, 118, 64);
+}
+
+#submit:focus {
+	background-color: rgb(138, 50, 50);
+    color: rgb(156, 211, 165);
+}
+
+button:hover {
+	background-color: rgb(216, 151, 227);
+    color: rgb(131, 95, 71);
+}
+
+button:focus {
+	background-color: rgb(175, 52, 197);
+    color: rgb(186, 152, 129);
+}
+
+img {
+	margin-top: 5vw;
+	margin-left: 36%;
+	margin-bottom: 2.5vw;
+	border-radius: 50%;
+	width: 28vw;
+}

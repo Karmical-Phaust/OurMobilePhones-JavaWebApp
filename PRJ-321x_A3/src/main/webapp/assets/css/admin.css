@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+#header {
+	background-image: url('../imgs/manager.jpg');
+	background-size: cover;
+	height: 36.5vw;
+	text-align: center;
+	padding-top: 8vw;
+	font-size: 6vw;
+	color: rgb(37, 133, 230);
+}
+
+p {
+	text-align: center;
+	font-size: 5vw;
+}
+
+form {
+	text-align: center;
+}
+
+button {
+	font-size: 1.75vw;
+	background-color: rgb(138, 50, 50);
+    color: rgb(156, 211, 165);
+    margin-bottom: 3vw;
+}

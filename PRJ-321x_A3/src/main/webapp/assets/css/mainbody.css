@@ -1,0 +1,108 @@
+@charset "UTF-8";
+
+h2 {
+	font-size: 2vw;
+}
+
+h3 {
+	font-size: 1.44vw;
+}
+
+h5 {
+	font-size: 1.06vw;
+}
+
+p {
+	font-size: 1.26vw;
+}
+
+.main {
+	background-color: lightgrey;
+}
+
+.left-column {
+	float: left;
+	width: 25%;
+}
+
+.mid-column {
+	float: left;
+	width: 50%;
+}
+
+.right-column {
+	float: left;
+	width: 25%;
+}
+
+.card-back {
+	background-color: white;
+	padding: 1.5vw;
+	margin: 1.5vw;
+}
+
+div.cardback p {
+	font-size: 2.2vw;
+}
+
+.img {
+	width: 93%;
+	padding: 0.75vw 0.75vw 0.75vw 0.75vw;
+	background-color: gray;
+}
+
+.main:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+/*table:*/
+
+table p {
+	font-size: 1.07vw;
+}
+
+tabel, tr, td {
+	border: 2.2px solid black;
+}
+
+button {
+	margin-top: 1vw;
+	font-size: 1.05vw;
+}
+
+@media screen and (max-width: 992px) {
+	
+	.left-column, .right-column {
+		width: 100%;
+		padding: 0;
+	}
+	
+	.mid-column {
+		width: 80%;
+		margin-left: 10%;
+	}
+	
+	h4 {
+		font-size: 1.4vw;
+	}
+	
+	h3 {
+		font-size: 1.6vw;
+	}
+	
+	table {
+		width: 70%;
+		margin-left: 15%;
+	}
+	
+	table p {
+		font-size: 1.2vw;
+	}
+	
+	div.right-column, table {
+		text-align: center;
+	}
+
+}

@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.homeabout {
+	text-align: center;
+	font-weight: 600;
+	color: black;
+	padding: 1.5vw;
+	margin-top: 1.6vw;
+	font-size: 1.25vw;
+}
